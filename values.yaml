@@ -10,7 +10,7 @@ shiny:
     enabled: false
     existingSecret: myshinyapp-s3
   postgresql:
-    enabled: true
+    enabled: false
     auth:
       username: myusername
       database: defaultdb
