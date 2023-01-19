@@ -7,7 +7,7 @@ shiny:
     enabled: true
     hostname: appLatin2French.lab.sspcloud.fr
   s3:
-    enabled: true
+    enabled: false
     existingSecret: myshinyapp-s3
   postgresql:
     enabled: true
