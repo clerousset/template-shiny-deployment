@@ -1,11 +1,11 @@
 shiny:
   image:
-    repository: clerousset/appLatin2French
+    repository: clerousset/applatin2french
     tag: latest
     pullPolicy: Always
   ingress:
     enabled: true
-    hostname: appLatin2French.lab.sspcloud.fr
+    hostname: applatin2french.lab.sspcloud.fr
   s3:
     enabled: false
     existingSecret: myshinyapp-s3
