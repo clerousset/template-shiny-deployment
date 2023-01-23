@@ -1,7 +1,7 @@
 shiny:
   image:
     repository: clerousset/applatin2french
-    tag: latest
+    tag: main
     pullPolicy: Always
   ingress:
     enabled: true
