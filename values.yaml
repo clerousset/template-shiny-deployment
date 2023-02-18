@@ -5,7 +5,7 @@ shinyproxy:
     pullPolicy: Always
   ingress:
     enabled: true
-    hostname: applatin2french.lab.sspcloud.fr
+    hostname: applatin2french2.lab.sspcloud.fr
   s3:
     enabled: false
     existingSecret: myshinyapp-s3
