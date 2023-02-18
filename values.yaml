@@ -1,4 +1,4 @@
-shiny:
+shinyproxy:
   image:
     repository: clerousset/applatin2french
     tag: main
