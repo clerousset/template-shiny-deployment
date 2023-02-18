@@ -1,11 +1,11 @@
-shinyproxy:
+shiny:
   image:
     repository: clerousset/applatin2french
     tag: main
     pullPolicy: Always
   ingress:
     enabled: true
-    hostname: applatin2french2.lab.sspcloud.fr
+    hostname: applatin2french.lab.sspcloud.fr
   s3:
     enabled: false
     existingSecret: myshinyapp-s3
